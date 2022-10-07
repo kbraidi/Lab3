@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -203,7 +204,41 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+body {
+  text-align: center;
+  background-color: #AAB8CD;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+
+label {
+	display: inline-block;
+  margin-bottom: 0.5em;
+
+}
+
+input{
+	border: none;
+
+}
+
+#submit{
+  background-color: #777777;
+  border-radius: 8px;
+}
 
 
 /* ===== STATE STYLES ======= */
 
+@media screen and (max-width: 300px){
+
+}
